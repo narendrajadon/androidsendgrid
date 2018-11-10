@@ -22,9 +22,7 @@ Create SendGridAsyncTask class:-
         }
     }
 
-Create SendGridCredentials class
-
-Create method to send email from Activity:-
+Create SendGridCredentials class:-
 
     public class SendGridCredentials {
         public static final String username = "REPLACE WITH YOUR SENDGRID USERNAME";
@@ -38,6 +36,8 @@ Create method to send email from Activity:-
         return password;
         }
     }
+
+Create method to send email from Activity:-
 
     private void sendMailUsingSendGrid(String from, String to, String subject, String mailBody){
             Hashtable<String, String> params = new Hashtable<>();
